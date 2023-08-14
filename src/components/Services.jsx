@@ -3,11 +3,11 @@ import React from 'react';
 import {Carousel} from "react-responsive-carousel";
 import img1 from "../assets/full_stack";
 import img2 from "../assets/full_stack1.png";
-import  "react-responsive-carousel/lib/styles/carousel.min.css";
+import  "react-responsive-carousel/lib/styles/carousel.min.css";//inbuild css 
 
 const Services =()=>{
     return(<>
-        <div className="services">Services </div>
+        <div className="services"> </div>
         <Carousel
         infiniteLoop//rit run infinite
         autoPlay//it changes auto matic

@@ -53,7 +53,7 @@ const Home = () => {
         </div>
         <div style={{animationDelay:"1s",}}>
           <AiFillInstagram/>
-          <Link to="https://www.instagram.com/"><p>Instagram</p></Link>
+          <Link to="https://www.instagram.com/anshu__365/"><p>Instagram</p></Link>
          
         </div>
       </article>

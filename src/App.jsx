@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Services from "./components/Services.jsx";
+import Error from "./components/Error";
 import "./style/mediaquery.scss";
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/"element={<Home/>}/>{/*it is use to specify path and that path what commpoenet  we have to run we write inside th element  */}
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/services" element={<Services/>}/>
+        <Route path="*" element={<Error/>}/>
       </Routes>
       <Footer/>{/*it will be at bottom */}
     </Router>

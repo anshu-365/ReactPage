@@ -1,6 +1,7 @@
 import React from 'react';
 import "../style/footer.scss";
 import {AiFillYoutube,AiFillInstagram,AiFillGithub} from "react-icons/ai";//using this for 
+import {NavLink} from "react-router-dom";
 
 const Footer = () => {
   return (<>
@@ -12,9 +13,9 @@ const Footer = () => {
     <div>
         <h5>Follow Us</h5>
         <div>
-            <a href="https://youtube.com" target={"blank"}>Youtube<AiFillYoutube/></a>
-            <a href="https://instagram.com/anshu_365" target={"blank"}>Insta<AiFillInstagram/></a>
-            <a href="https://github.com/anshu-365" target={"blank"}>GitHub<AiFillGithub/></a>
+            <NavLink  to="https://youtube.com" target={"blank"}>Youtube<AiFillYoutube/></NavLink>
+            <NavLink  to="https://www.instagram.com/anshu__365/" target={"blank"}>Insta<AiFillInstagram/></NavLink>
+            <NavLink  to="https://github.com/anshu-365" target={"blank"}>GitHub<AiFillGithub/></NavLink>
         </div>
     </div>
     </footer>
